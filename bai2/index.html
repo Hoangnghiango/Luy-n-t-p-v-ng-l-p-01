@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Sử dụng hàm prompt() để lấy thông tin nhiệt độ
+         hiện tại được nhập bởi người truy cập. 
+         Nếu nhiệt độ nhập vào trên 100, yêu cầu người
+          dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20,
+           yêu cầu người dùng tăng nhiệt độ. -->
+           <script>
+            let temperature = parseInt(prompt("Nhap nhiet do"));
+            if(temperature>100){
+                alert("Hay giam nhiet do");
+            } else if(temperature<20){
+                alert("Hay tang nhiet do");
+            }
+           </script>
+</body>
+</html>
